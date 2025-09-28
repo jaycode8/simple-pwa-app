@@ -6,7 +6,8 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./imgs/logo.png">
   <title>Kenya</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="manifest" href="manifest.json">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#3F9D52">
 </head>
 <body class="overflow-hidden">
 <!-- Full Screen Hero -->
@@ -36,13 +37,6 @@
   </div>
 </div>
 
-  <script>
-    // Register the service worker
-    if ("serviceWorker" in navigator) {
-      navigator.serviceWorker.register("service-worker.js")
-        .then(() => console.log("Service Worker Registered"))
-        .catch(err => console.error("SW registration failed:", err));
-    }
-  </script>
+  <script src="/script.js"></script>
 </body>
 </html>
