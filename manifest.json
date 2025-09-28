@@ -1,0 +1,20 @@
+{
+  "name": "PWA Demo for Kenya",
+  "short_name": "Kenya",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#317EFB",
+  "icons": [
+    {
+      "src": "./imgs/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./imgs/logo-alt.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
